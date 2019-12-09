@@ -1,9 +1,9 @@
 ---
-title: "Mobile Pages"
+title: "android"
+tagName: android
 search: exclude
-tagName: mobile
-permalink: tag_mobile.html
-sidebar: mydoc_sidebar
+permalink: tag_android.html
+sidebar: home_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

@@ -1,7 +1,7 @@
 entries:
 - title: sidebar
-  product: 安卓高级UI
-  version: 
+  product: Java基础
+  version:
   folders:
 
   - title:
@@ -17,11 +17,11 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: 应用启动流程
+  - title: Core Java I
     output: web, pdf
     folderitems:
 
-    - title: Activity启动流程分析
-      url: / android_ui_test_notes.html
+    - title: Chapter 2
+      url: /java_fundamentals_core_java_ch_1_6.html
       output: web, pdf
       type: homepage

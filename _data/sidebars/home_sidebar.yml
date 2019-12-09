@@ -1,22 +1,66 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Sidebar
-  levels: one
+- title: sidebar
+  product: Brian Zhang的笔记
+  version:
   folders:
 
-  - title: Products
-    output: web
+  - title:
+    output: pdf
+    type: frontmatter
     folderitems:
-    - title: News
-      url: /news.html
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: 安卓
+    output: web, pdf
+    folderitems:
+
+    - title: 安卓高级UI总结
+      url: /android_ui_summary.html
       output: web
-    - title: Theme instructions
-      url: /mydoc_introduction.html
+
+      subfolders:
+      - title: 安卓高级UI
+        output: web
+        subfolderitems:
+
+        - title: Activity启动流程分析
+          url: /android_ui_test_notes.html
+          output: web
+
+  - title: Java
+    output: web, pdf
+    folderitems:
+
+    - title: Java基础总结
+      url: /java_fundamentals_summary.html
       output: web
-    - title: Product 1
-      url: /p1_landing_page.html
-      output: web
-    - title: Product 2
-      url: /p2_landing_page.html
-      output: web
+
+      subfolders:
+      - title: Core Java I
+        output: web
+        subfolderitems:
+
+        - title: Chapter 2
+          url: /java_fundamentals_core_java_ch_1_6.html
+          output: web
+
+  - title: 标签
+    output: web, pdf
+
+    folderitems:
+    - title: android
+      url: /tag_android.html
+      output: web, pdf
+
+    - title: java
+      url: /tag_java.html
+      output: web, pdf

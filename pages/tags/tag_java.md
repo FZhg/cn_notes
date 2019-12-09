@@ -1,9 +1,9 @@
 ---
-title: "News"
-tagName: news
+title: "java"
+tagName: java
 search: exclude
-permalink: tag_news.html
-sidebar: mydoc_sidebar
+permalink: tag_java.html
+sidebar: home_sidebar
 folder: tags
 ---
 {% include taglogic.html %}
